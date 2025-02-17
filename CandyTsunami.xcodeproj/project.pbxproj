@@ -7,18 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86039A582D60A752003B3125 /* CandyShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86039A552D60A752003B3125 /* CandyShopView.swift */; };
+		86039A592D60A752003B3125 /* CandyShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86039A562D60A752003B3125 /* CandyShopModel.swift */; };
+		86039A5A2D60A752003B3125 /* CandyShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86039A572D60A752003B3125 /* CandyShopViewModel.swift */; };
+		86039A5F2D60ADA6003B3125 /* CandyReceptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86039A5C2D60ADA6003B3125 /* CandyReceptView.swift */; };
+		86039A602D60ADA6003B3125 /* CandyReceptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86039A5D2D60ADA6003B3125 /* CandyReceptModel.swift */; };
+		86039A612D60ADA6003B3125 /* CandyReceptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86039A5E2D60ADA6003B3125 /* CandyReceptViewModel.swift */; };
+		860CA68D2D63310400C7E5B9 /* CandyWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA68A2D63310400C7E5B9 /* CandyWinView.swift */; };
+		860CA68E2D63310400C7E5B9 /* CandyWinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA68B2D63310400C7E5B9 /* CandyWinModel.swift */; };
+		860CA68F2D63310400C7E5B9 /* CandyWinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA68C2D63310400C7E5B9 /* CandyWinViewModel.swift */; };
+		860CA6942D63386400C7E5B9 /* CandyLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA6912D63386400C7E5B9 /* CandyLoseView.swift */; };
+		860CA6952D63386400C7E5B9 /* CandyLoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA6922D63386400C7E5B9 /* CandyLoseModel.swift */; };
+		860CA6962D63386400C7E5B9 /* CandyLoseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA6932D63386400C7E5B9 /* CandyLoseViewModel.swift */; };
+		860CA69B2D633AC900C7E5B9 /* CandyGameRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA6982D633AC900C7E5B9 /* CandyGameRulesView.swift */; };
+		860CA69C2D633AC900C7E5B9 /* CandyGameRulesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA6992D633AC900C7E5B9 /* CandyGameRulesModel.swift */; };
+		860CA69D2D633AC900C7E5B9 /* CandyGameRulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA69A2D633AC900C7E5B9 /* CandyGameRulesViewModel.swift */; };
+		860CA6A22D63504800C7E5B9 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA6A12D63504800C7E5B9 /* AudioManager.swift */; };
+		860CA6A52D63505200C7E5B9 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860CA6A42D63505200C7E5B9 /* UserDefaultsManager.swift */; };
+		860CA6AB2D63735C00C7E5B9 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 860CA6A82D63735C00C7E5B9 /* lose.mp3 */; };
+		860CA6AC2D63735C00C7E5B9 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 860CA6A92D63735C00C7E5B9 /* win.mp3 */; };
+		860CA6AD2D63735C00C7E5B9 /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 860CA6AA2D63735C00C7E5B9 /* bg.mp3 */; };
 		861D249D2D5F820700B100C2 /* CandyTsunamiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D249C2D5F820700B100C2 /* CandyTsunamiApp.swift */; };
-		861D249F2D5F820700B100C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D249E2D5F820700B100C2 /* ContentView.swift */; };
 		861D24A12D5F820800B100C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861D24A02D5F820800B100C2 /* Assets.xcassets */; };
 		861D24A42D5F820800B100C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861D24A32D5F820800B100C2 /* Preview Assets.xcassets */; };
+		861D24AF2D5F823A00B100C2 /* CandyImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D24AE2D5F823A00B100C2 /* CandyImageName.swift */; };
+		861D24B12D5F824200B100C2 /* CandyCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D24B02D5F824200B100C2 /* CandyCustomButtons.swift */; };
+		861D24B52D5F825800B100C2 /* CandyTextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D24B42D5F825800B100C2 /* CandyTextExtension.swift */; };
+		861D24B92D5F826F00B100C2 /* CandyTextOutlineExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D24B82D5F826F00B100C2 /* CandyTextOutlineExtension.swift */; };
+		861D24BB2D5F836600B100C2 /* franklingothic_demi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 861D24BA2D5F835D00B100C2 /* franklingothic_demi.ttf */; };
+		8682FBCB2D5F85CB00438EC1 /* CandyLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBC82D5F85CB00438EC1 /* CandyLoadingView.swift */; };
+		8682FBCC2D5F85CB00438EC1 /* CandyLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBC92D5F85CB00438EC1 /* CandyLoadingModel.swift */; };
+		8682FBCD2D5F85CB00438EC1 /* CandyLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBCA2D5F85CB00438EC1 /* CandyLoadingViewModel.swift */; };
+		8682FBD32D5F8ADE00438EC1 /* CandyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBD02D5F8ADD00438EC1 /* CandyMenuView.swift */; };
+		8682FBD42D5F8ADE00438EC1 /* CandyMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBD12D5F8ADD00438EC1 /* CandyMenuModel.swift */; };
+		8682FBD52D5F8ADE00438EC1 /* CandyMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBD22D5F8ADD00438EC1 /* CandyMenuViewModel.swift */; };
+		8682FBDB2D5F951500438EC1 /* CandyLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBD82D5F951500438EC1 /* CandyLevelView.swift */; };
+		8682FBDC2D5F951500438EC1 /* CandyLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBD92D5F951500438EC1 /* CandyLevelModel.swift */; };
+		8682FBDD2D5F951500438EC1 /* CandyLevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBDA2D5F951500438EC1 /* CandyLevelViewModel.swift */; };
+		8682FBE22D5FB54C00438EC1 /* CandySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBDF2D5FB54C00438EC1 /* CandySettingsView.swift */; };
+		8682FBE32D5FB54C00438EC1 /* CandySettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBE02D5FB54C00438EC1 /* CandySettingsModel.swift */; };
+		8682FBE42D5FB54C00438EC1 /* CandySettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBE12D5FB54C00438EC1 /* CandySettingsViewModel.swift */; };
+		8682FBE92D5FC1AD00438EC1 /* CandyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBE62D5FC1AD00438EC1 /* CandyCollectionView.swift */; };
+		8682FBEA2D5FC1AD00438EC1 /* CandyCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBE72D5FC1AD00438EC1 /* CandyCollectionModel.swift */; };
+		8682FBEB2D5FC1AD00438EC1 /* CandyCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682FBE82D5FC1AD00438EC1 /* CandyCollectionViewModel.swift */; };
+		8691D2A12D622A0000B2DBC9 /* CandyGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691D29E2D622A0000B2DBC9 /* CandyGameView.swift */; };
+		8691D2A22D622A0000B2DBC9 /* CandyGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691D29F2D622A0000B2DBC9 /* CandyGameModel.swift */; };
+		8691D2A32D622A0000B2DBC9 /* CandyGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8691D2A02D622A0000B2DBC9 /* CandyGameViewModel.swift */; };
+		86D08A0A2D631D1400C071EC /* CandyExitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D08A072D631D1400C071EC /* CandyExitView.swift */; };
+		86D08A0B2D631D1400C071EC /* CandyExitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D08A082D631D1400C071EC /* CandyExitModel.swift */; };
+		86D08A0C2D631D1400C071EC /* CandyExitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D08A092D631D1400C071EC /* CandyExitViewModel.swift */; };
+		86D08A112D63230300C071EC /* CandyRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D08A0E2D63230300C071EC /* CandyRulesView.swift */; };
+		86D08A122D63230300C071EC /* CandyRulesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D08A0F2D63230300C071EC /* CandyRulesModel.swift */; };
+		86D08A132D63230300C071EC /* CandyRulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D08A102D63230300C071EC /* CandyRulesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86039A552D60A752003B3125 /* CandyShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyShopView.swift; sourceTree = "<group>"; };
+		86039A562D60A752003B3125 /* CandyShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyShopModel.swift; sourceTree = "<group>"; };
+		86039A572D60A752003B3125 /* CandyShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyShopViewModel.swift; sourceTree = "<group>"; };
+		86039A5C2D60ADA6003B3125 /* CandyReceptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReceptView.swift; sourceTree = "<group>"; };
+		86039A5D2D60ADA6003B3125 /* CandyReceptModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReceptModel.swift; sourceTree = "<group>"; };
+		86039A5E2D60ADA6003B3125 /* CandyReceptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyReceptViewModel.swift; sourceTree = "<group>"; };
+		860CA68A2D63310400C7E5B9 /* CandyWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyWinView.swift; sourceTree = "<group>"; };
+		860CA68B2D63310400C7E5B9 /* CandyWinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyWinModel.swift; sourceTree = "<group>"; };
+		860CA68C2D63310400C7E5B9 /* CandyWinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyWinViewModel.swift; sourceTree = "<group>"; };
+		860CA6912D63386400C7E5B9 /* CandyLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoseView.swift; sourceTree = "<group>"; };
+		860CA6922D63386400C7E5B9 /* CandyLoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoseModel.swift; sourceTree = "<group>"; };
+		860CA6932D63386400C7E5B9 /* CandyLoseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoseViewModel.swift; sourceTree = "<group>"; };
+		860CA6982D633AC900C7E5B9 /* CandyGameRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameRulesView.swift; sourceTree = "<group>"; };
+		860CA6992D633AC900C7E5B9 /* CandyGameRulesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameRulesModel.swift; sourceTree = "<group>"; };
+		860CA69A2D633AC900C7E5B9 /* CandyGameRulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameRulesViewModel.swift; sourceTree = "<group>"; };
+		860CA6A12D63504800C7E5B9 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		860CA6A42D63505200C7E5B9 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		860CA6A82D63735C00C7E5B9 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		860CA6A92D63735C00C7E5B9 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		860CA6AA2D63735C00C7E5B9 /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
 		861D24992D5F820700B100C2 /* CandyTsunami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyTsunami.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		861D249C2D5F820700B100C2 /* CandyTsunamiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTsunamiApp.swift; sourceTree = "<group>"; };
-		861D249E2D5F820700B100C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		861D24A02D5F820800B100C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		861D24A32D5F820800B100C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		861D24AE2D5F823A00B100C2 /* CandyImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyImageName.swift; sourceTree = "<group>"; };
+		861D24B02D5F824200B100C2 /* CandyCustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyCustomButtons.swift; sourceTree = "<group>"; };
+		861D24B42D5F825800B100C2 /* CandyTextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTextExtension.swift; sourceTree = "<group>"; };
+		861D24B82D5F826F00B100C2 /* CandyTextOutlineExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyTextOutlineExtension.swift; sourceTree = "<group>"; };
+		861D24BA2D5F835D00B100C2 /* franklingothic_demi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = franklingothic_demi.ttf; sourceTree = "<group>"; };
+		861D24BC2D5F836D00B100C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8682FBC82D5F85CB00438EC1 /* CandyLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoadingView.swift; sourceTree = "<group>"; };
+		8682FBC92D5F85CB00438EC1 /* CandyLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoadingModel.swift; sourceTree = "<group>"; };
+		8682FBCA2D5F85CB00438EC1 /* CandyLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLoadingViewModel.swift; sourceTree = "<group>"; };
+		8682FBD02D5F8ADD00438EC1 /* CandyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuView.swift; sourceTree = "<group>"; };
+		8682FBD12D5F8ADD00438EC1 /* CandyMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuModel.swift; sourceTree = "<group>"; };
+		8682FBD22D5F8ADD00438EC1 /* CandyMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyMenuViewModel.swift; sourceTree = "<group>"; };
+		8682FBD82D5F951500438EC1 /* CandyLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLevelView.swift; sourceTree = "<group>"; };
+		8682FBD92D5F951500438EC1 /* CandyLevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLevelModel.swift; sourceTree = "<group>"; };
+		8682FBDA2D5F951500438EC1 /* CandyLevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyLevelViewModel.swift; sourceTree = "<group>"; };
+		8682FBDF2D5FB54C00438EC1 /* CandySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySettingsView.swift; sourceTree = "<group>"; };
+		8682FBE02D5FB54C00438EC1 /* CandySettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySettingsModel.swift; sourceTree = "<group>"; };
+		8682FBE12D5FB54C00438EC1 /* CandySettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandySettingsViewModel.swift; sourceTree = "<group>"; };
+		8682FBE62D5FC1AD00438EC1 /* CandyCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyCollectionView.swift; sourceTree = "<group>"; };
+		8682FBE72D5FC1AD00438EC1 /* CandyCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyCollectionModel.swift; sourceTree = "<group>"; };
+		8682FBE82D5FC1AD00438EC1 /* CandyCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyCollectionViewModel.swift; sourceTree = "<group>"; };
+		8691D29E2D622A0000B2DBC9 /* CandyGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameView.swift; sourceTree = "<group>"; };
+		8691D29F2D622A0000B2DBC9 /* CandyGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameModel.swift; sourceTree = "<group>"; };
+		8691D2A02D622A0000B2DBC9 /* CandyGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyGameViewModel.swift; sourceTree = "<group>"; };
+		86D08A072D631D1400C071EC /* CandyExitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyExitView.swift; sourceTree = "<group>"; };
+		86D08A082D631D1400C071EC /* CandyExitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyExitModel.swift; sourceTree = "<group>"; };
+		86D08A092D631D1400C071EC /* CandyExitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyExitViewModel.swift; sourceTree = "<group>"; };
+		86D08A0E2D63230300C071EC /* CandyRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyRulesView.swift; sourceTree = "<group>"; };
+		86D08A0F2D63230300C071EC /* CandyRulesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyRulesModel.swift; sourceTree = "<group>"; };
+		86D08A102D63230300C071EC /* CandyRulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyRulesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +129,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86039A542D60A740003B3125 /* CandyShopModule */ = {
+			isa = PBXGroup;
+			children = (
+				86039A552D60A752003B3125 /* CandyShopView.swift */,
+				86039A562D60A752003B3125 /* CandyShopModel.swift */,
+				86039A572D60A752003B3125 /* CandyShopViewModel.swift */,
+			);
+			path = CandyShopModule;
+			sourceTree = "<group>";
+		};
+		86039A5B2D60AD93003B3125 /* CandyReceptView */ = {
+			isa = PBXGroup;
+			children = (
+				86039A5C2D60ADA6003B3125 /* CandyReceptView.swift */,
+				86039A5D2D60ADA6003B3125 /* CandyReceptModel.swift */,
+				86039A5E2D60ADA6003B3125 /* CandyReceptViewModel.swift */,
+			);
+			path = CandyReceptView;
+			sourceTree = "<group>";
+		};
+		860CA6892D6330F900C7E5B9 /* CandyWinModule */ = {
+			isa = PBXGroup;
+			children = (
+				860CA68A2D63310400C7E5B9 /* CandyWinView.swift */,
+				860CA68B2D63310400C7E5B9 /* CandyWinModel.swift */,
+				860CA68C2D63310400C7E5B9 /* CandyWinViewModel.swift */,
+			);
+			path = CandyWinModule;
+			sourceTree = "<group>";
+		};
+		860CA6902D63385D00C7E5B9 /* CandyLoseModule */ = {
+			isa = PBXGroup;
+			children = (
+				860CA6912D63386400C7E5B9 /* CandyLoseView.swift */,
+				860CA6922D63386400C7E5B9 /* CandyLoseModel.swift */,
+				860CA6932D63386400C7E5B9 /* CandyLoseViewModel.swift */,
+			);
+			path = CandyLoseModule;
+			sourceTree = "<group>";
+		};
+		860CA6972D633ABB00C7E5B9 /* CandyGameRulesModule */ = {
+			isa = PBXGroup;
+			children = (
+				860CA6982D633AC900C7E5B9 /* CandyGameRulesView.swift */,
+				860CA6992D633AC900C7E5B9 /* CandyGameRulesModel.swift */,
+				860CA69A2D633AC900C7E5B9 /* CandyGameRulesViewModel.swift */,
+			);
+			path = CandyGameRulesModule;
+			sourceTree = "<group>";
+		};
+		860CA69E2D63503300C7E5B9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				860CA6A02D63504000C7E5B9 /* AudioManager */,
+				860CA69F2D63503A00C7E5B9 /* UserDefaultsManager */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		860CA69F2D63503A00C7E5B9 /* UserDefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				860CA6A42D63505200C7E5B9 /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaultsManager;
+			sourceTree = "<group>";
+		};
+		860CA6A02D63504000C7E5B9 /* AudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				860CA6A72D6372FE00C7E5B9 /* Sounds */,
+				860CA6A62D6372F800C7E5B9 /* Manager */,
+			);
+			path = AudioManager;
+			sourceTree = "<group>";
+		};
+		860CA6A62D6372F800C7E5B9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				860CA6A12D63504800C7E5B9 /* AudioManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		860CA6A72D6372FE00C7E5B9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				860CA6AA2D63735C00C7E5B9 /* bg.mp3 */,
+				860CA6A82D63735C00C7E5B9 /* lose.mp3 */,
+				860CA6A92D63735C00C7E5B9 /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		861D24902D5F820700B100C2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +242,23 @@
 		861D249B2D5F820700B100C2 /* CandyTsunami */ = {
 			isa = PBXGroup;
 			children = (
-				861D249C2D5F820700B100C2 /* CandyTsunamiApp.swift */,
-				861D249E2D5F820700B100C2 /* ContentView.swift */,
-				861D24A02D5F820800B100C2 /* Assets.xcassets */,
+				8682FBCE2D5F860500438EC1 /* Application */,
+				860CA6902D63385D00C7E5B9 /* CandyLoseModule */,
+				860CA6892D6330F900C7E5B9 /* CandyWinModule */,
+				860CA6972D633ABB00C7E5B9 /* CandyGameRulesModule */,
+				86D08A0D2D6322F900C071EC /* CandyRulesModule */,
+				86D08A062D631D0600C071EC /* CandyExitModule */,
+				8691D29D2D6229F100B2DBC9 /* CandyGameModule */,
+				86039A5B2D60AD93003B3125 /* CandyReceptView */,
+				86039A542D60A740003B3125 /* CandyShopModule */,
+				8682FBE52D5FC1A000438EC1 /* CandyCollectionModule */,
+				8682FBDE2D5FB53C00438EC1 /* CandySettingsModule */,
+				8682FBD72D5F950A00438EC1 /* CandyLevelModule */,
+				8682FBCF2D5F8ACA00438EC1 /* CandyMenuModule */,
+				8682FBC72D5F85C100438EC1 /* CandyLoadingModule */,
+				861D24B22D5F824800B100C2 /* CandyExtension */,
+				861D24AA2D5F821800B100C2 /* CandyHelpers */,
+				860CA69E2D63503300C7E5B9 /* API */,
 				861D24A22D5F820800B100C2 /* Preview Content */,
 			);
 			path = CandyTsunami;
@@ -65,6 +270,155 @@
 				861D24A32D5F820800B100C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		861D24AA2D5F821800B100C2 /* CandyHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				861D24AB2D5F821D00B100C2 /* Fonts */,
+				861D24AC2D5F822000B100C2 /* CandyImageName */,
+				861D24AD2D5F822800B100C2 /* CandyCustomButtons */,
+			);
+			path = CandyHelpers;
+			sourceTree = "<group>";
+		};
+		861D24AB2D5F821D00B100C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				861D24BA2D5F835D00B100C2 /* franklingothic_demi.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		861D24AC2D5F822000B100C2 /* CandyImageName */ = {
+			isa = PBXGroup;
+			children = (
+				861D24AE2D5F823A00B100C2 /* CandyImageName.swift */,
+			);
+			path = CandyImageName;
+			sourceTree = "<group>";
+		};
+		861D24AD2D5F822800B100C2 /* CandyCustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				861D24B02D5F824200B100C2 /* CandyCustomButtons.swift */,
+			);
+			path = CandyCustomButtons;
+			sourceTree = "<group>";
+		};
+		861D24B22D5F824800B100C2 /* CandyExtension */ = {
+			isa = PBXGroup;
+			children = (
+				861D24B62D5F825B00B100C2 /* CandyTextOutlineExtension */,
+				861D24B32D5F824D00B100C2 /* CandyTextExtension */,
+			);
+			path = CandyExtension;
+			sourceTree = "<group>";
+		};
+		861D24B32D5F824D00B100C2 /* CandyTextExtension */ = {
+			isa = PBXGroup;
+			children = (
+				861D24B42D5F825800B100C2 /* CandyTextExtension.swift */,
+			);
+			path = CandyTextExtension;
+			sourceTree = "<group>";
+		};
+		861D24B62D5F825B00B100C2 /* CandyTextOutlineExtension */ = {
+			isa = PBXGroup;
+			children = (
+				861D24B82D5F826F00B100C2 /* CandyTextOutlineExtension.swift */,
+			);
+			path = CandyTextOutlineExtension;
+			sourceTree = "<group>";
+		};
+		8682FBC72D5F85C100438EC1 /* CandyLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				8682FBC82D5F85CB00438EC1 /* CandyLoadingView.swift */,
+				8682FBC92D5F85CB00438EC1 /* CandyLoadingModel.swift */,
+				8682FBCA2D5F85CB00438EC1 /* CandyLoadingViewModel.swift */,
+			);
+			path = CandyLoadingModule;
+			sourceTree = "<group>";
+		};
+		8682FBCE2D5F860500438EC1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				861D249C2D5F820700B100C2 /* CandyTsunamiApp.swift */,
+				861D24BC2D5F836D00B100C2 /* Info.plist */,
+				861D24A02D5F820800B100C2 /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8682FBCF2D5F8ACA00438EC1 /* CandyMenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				8682FBD02D5F8ADD00438EC1 /* CandyMenuView.swift */,
+				8682FBD12D5F8ADD00438EC1 /* CandyMenuModel.swift */,
+				8682FBD22D5F8ADD00438EC1 /* CandyMenuViewModel.swift */,
+			);
+			path = CandyMenuModule;
+			sourceTree = "<group>";
+		};
+		8682FBD72D5F950A00438EC1 /* CandyLevelModule */ = {
+			isa = PBXGroup;
+			children = (
+				8682FBD82D5F951500438EC1 /* CandyLevelView.swift */,
+				8682FBD92D5F951500438EC1 /* CandyLevelModel.swift */,
+				8682FBDA2D5F951500438EC1 /* CandyLevelViewModel.swift */,
+			);
+			path = CandyLevelModule;
+			sourceTree = "<group>";
+		};
+		8682FBDE2D5FB53C00438EC1 /* CandySettingsModule */ = {
+			isa = PBXGroup;
+			children = (
+				8682FBDF2D5FB54C00438EC1 /* CandySettingsView.swift */,
+				8682FBE02D5FB54C00438EC1 /* CandySettingsModel.swift */,
+				8682FBE12D5FB54C00438EC1 /* CandySettingsViewModel.swift */,
+			);
+			path = CandySettingsModule;
+			sourceTree = "<group>";
+		};
+		8682FBE52D5FC1A000438EC1 /* CandyCollectionModule */ = {
+			isa = PBXGroup;
+			children = (
+				8682FBE62D5FC1AD00438EC1 /* CandyCollectionView.swift */,
+				8682FBE72D5FC1AD00438EC1 /* CandyCollectionModel.swift */,
+				8682FBE82D5FC1AD00438EC1 /* CandyCollectionViewModel.swift */,
+			);
+			path = CandyCollectionModule;
+			sourceTree = "<group>";
+		};
+		8691D29D2D6229F100B2DBC9 /* CandyGameModule */ = {
+			isa = PBXGroup;
+			children = (
+				8691D29E2D622A0000B2DBC9 /* CandyGameView.swift */,
+				8691D29F2D622A0000B2DBC9 /* CandyGameModel.swift */,
+				8691D2A02D622A0000B2DBC9 /* CandyGameViewModel.swift */,
+			);
+			path = CandyGameModule;
+			sourceTree = "<group>";
+		};
+		86D08A062D631D0600C071EC /* CandyExitModule */ = {
+			isa = PBXGroup;
+			children = (
+				86D08A072D631D1400C071EC /* CandyExitView.swift */,
+				86D08A082D631D1400C071EC /* CandyExitModel.swift */,
+				86D08A092D631D1400C071EC /* CandyExitViewModel.swift */,
+			);
+			path = CandyExitModule;
+			sourceTree = "<group>";
+		};
+		86D08A0D2D6322F900C071EC /* CandyRulesModule */ = {
+			isa = PBXGroup;
+			children = (
+				86D08A0E2D63230300C071EC /* CandyRulesView.swift */,
+				86D08A0F2D63230300C071EC /* CandyRulesModel.swift */,
+				86D08A102D63230300C071EC /* CandyRulesViewModel.swift */,
+			);
+			path = CandyRulesModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +479,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860CA6AC2D63735C00C7E5B9 /* win.mp3 in Resources */,
+				861D24BB2D5F836600B100C2 /* franklingothic_demi.ttf in Resources */,
+				860CA6AB2D63735C00C7E5B9 /* lose.mp3 in Resources */,
 				861D24A42D5F820800B100C2 /* Preview Assets.xcassets in Resources */,
 				861D24A12D5F820800B100C2 /* Assets.xcassets in Resources */,
+				860CA6AD2D63735C00C7E5B9 /* bg.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +495,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				861D249F2D5F820700B100C2 /* ContentView.swift in Sources */,
+				861D24B12D5F824200B100C2 /* CandyCustomButtons.swift in Sources */,
 				861D249D2D5F820700B100C2 /* CandyTsunamiApp.swift in Sources */,
+				86D08A112D63230300C071EC /* CandyRulesView.swift in Sources */,
+				86D08A122D63230300C071EC /* CandyRulesModel.swift in Sources */,
+				860CA68D2D63310400C7E5B9 /* CandyWinView.swift in Sources */,
+				860CA68E2D63310400C7E5B9 /* CandyWinModel.swift in Sources */,
+				860CA68F2D63310400C7E5B9 /* CandyWinViewModel.swift in Sources */,
+				86D08A132D63230300C071EC /* CandyRulesViewModel.swift in Sources */,
+				861D24B92D5F826F00B100C2 /* CandyTextOutlineExtension.swift in Sources */,
+				8682FBD32D5F8ADE00438EC1 /* CandyMenuView.swift in Sources */,
+				86039A5F2D60ADA6003B3125 /* CandyReceptView.swift in Sources */,
+				86039A602D60ADA6003B3125 /* CandyReceptModel.swift in Sources */,
+				86039A612D60ADA6003B3125 /* CandyReceptViewModel.swift in Sources */,
+				86D08A0A2D631D1400C071EC /* CandyExitView.swift in Sources */,
+				86D08A0B2D631D1400C071EC /* CandyExitModel.swift in Sources */,
+				86D08A0C2D631D1400C071EC /* CandyExitViewModel.swift in Sources */,
+				8682FBD42D5F8ADE00438EC1 /* CandyMenuModel.swift in Sources */,
+				860CA6942D63386400C7E5B9 /* CandyLoseView.swift in Sources */,
+				860CA6952D63386400C7E5B9 /* CandyLoseModel.swift in Sources */,
+				860CA6962D63386400C7E5B9 /* CandyLoseViewModel.swift in Sources */,
+				8682FBD52D5F8ADE00438EC1 /* CandyMenuViewModel.swift in Sources */,
+				8682FBE22D5FB54C00438EC1 /* CandySettingsView.swift in Sources */,
+				8682FBE32D5FB54C00438EC1 /* CandySettingsModel.swift in Sources */,
+				8682FBE42D5FB54C00438EC1 /* CandySettingsViewModel.swift in Sources */,
+				861D24AF2D5F823A00B100C2 /* CandyImageName.swift in Sources */,
+				861D24B52D5F825800B100C2 /* CandyTextExtension.swift in Sources */,
+				8682FBDB2D5F951500438EC1 /* CandyLevelView.swift in Sources */,
+				8682FBDC2D5F951500438EC1 /* CandyLevelModel.swift in Sources */,
+				8691D2A12D622A0000B2DBC9 /* CandyGameView.swift in Sources */,
+				8691D2A22D622A0000B2DBC9 /* CandyGameModel.swift in Sources */,
+				860CA6A52D63505200C7E5B9 /* UserDefaultsManager.swift in Sources */,
+				8691D2A32D622A0000B2DBC9 /* CandyGameViewModel.swift in Sources */,
+				8682FBDD2D5F951500438EC1 /* CandyLevelViewModel.swift in Sources */,
+				8682FBCB2D5F85CB00438EC1 /* CandyLoadingView.swift in Sources */,
+				860CA6A22D63504800C7E5B9 /* AudioManager.swift in Sources */,
+				8682FBE92D5FC1AD00438EC1 /* CandyCollectionView.swift in Sources */,
+				8682FBEA2D5FC1AD00438EC1 /* CandyCollectionModel.swift in Sources */,
+				86039A582D60A752003B3125 /* CandyShopView.swift in Sources */,
+				86039A592D60A752003B3125 /* CandyShopModel.swift in Sources */,
+				860CA69B2D633AC900C7E5B9 /* CandyGameRulesView.swift in Sources */,
+				860CA69C2D633AC900C7E5B9 /* CandyGameRulesModel.swift in Sources */,
+				860CA69D2D633AC900C7E5B9 /* CandyGameRulesViewModel.swift in Sources */,
+				86039A5A2D60A752003B3125 /* CandyShopViewModel.swift in Sources */,
+				8682FBEB2D5FC1AD00438EC1 /* CandyCollectionViewModel.swift in Sources */,
+				8682FBCC2D5F85CB00438EC1 /* CandyLoadingModel.swift in Sources */,
+				8682FBCD2D5F85CB00438EC1 /* CandyLoadingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +677,12 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CandyTsunami/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +707,12 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CandyTsunami/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
