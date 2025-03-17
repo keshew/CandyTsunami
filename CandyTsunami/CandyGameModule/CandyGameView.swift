@@ -76,12 +76,12 @@ class CandyGameSpriteKit: SKScene, SKPhysicsContactDelegate {
         addChild(menuLabel)
         
         let timeBack = SKSpriteNode(imageNamed: CandyImageName.backForBudget.rawValue)
-        timeBack.size = CGSize(width: 157, height: 80)
+        timeBack.size = CGSize(width: size.width * 0.391, height: size.height * 0.0916)
         timeBack.position = CGPoint(x: size.width / 4, y: size.height / 1.42)
         addChild(timeBack)
         
         let time = SKSpriteNode(imageNamed: CandyImageName.timeGame.rawValue)
-        time.size = CGSize(width: 50, height: 101)
+        time.size = CGSize(width: size.width * 0.125, height: size.height * 0.116)
         time.position = CGPoint(x: size.width / 6.5, y: size.height / 1.42)
         addChild(time)
         
@@ -92,16 +92,16 @@ class CandyGameSpriteKit: SKScene, SKPhysicsContactDelegate {
             NSAttributedString.Key.strokeColor: UIColor(red: 192/255, green: 24/255, blue: 176/255, alpha: 1),
             NSAttributedString.Key.strokeWidth: -5
         ])
-        timeLabel.position = CGPoint(x: size.width / 3.4, y: size.height / 1.43)
+        timeLabel.position = CGPoint(x: size.width / 3.4, y: size.height / 1.42)
         addChild(timeLabel)
         
         let stepBack = SKSpriteNode(imageNamed: CandyImageName.backForBudget.rawValue)
-        stepBack.size = CGSize(width: 157, height: 80)
+        stepBack.size = CGSize(width: size.width * 0.391, height: size.height * 0.0916)
         stepBack.position = CGPoint(x: size.width / 1.4, y: size.height / 1.42)
         addChild(stepBack)
         
         let step = SKSpriteNode(imageNamed: CandyImageName.stepGame.rawValue)
-        step.size = CGSize(width: 74, height: 77)
+        step.size = CGSize(width: size.width * 0.185, height: size.height * 0.089)
         step.position = CGPoint(x: size.width / 1.25, y: size.height / 1.42)
         addChild(step)
     }
@@ -134,44 +134,44 @@ class CandyGameSpriteKit: SKScene, SKPhysicsContactDelegate {
             NSAttributedString.Key.strokeColor: UIColor(red: 192/255, green: 24/255, blue: 176/255, alpha: 1),
             NSAttributedString.Key.strokeWidth: -4
         ])
-        stepLabel.position = CGPoint(x: size.width / 1.55, y: size.height / 1.45)
+        stepLabel.position = CGPoint(x: size.width / 1.58, y: size.height / 1.455)
         addChild(stepLabel)
     }
     
     func createTappedObjects() {
         let menuBack = SKSpriteNode(imageNamed: CandyImageName.backCircleImage.rawValue)
         menuBack.name = "menuBack"
-        menuBack.size = CGSize(width: 80, height: 80)
-        menuBack.position = CGPoint(x: size.width / 8, y: size.height / 1.15)
+        menuBack.size = CGSize(width: size.width * 0.199, height: size.height * 0.0915)
+        menuBack.position = CGPoint(x: size.width / 8, y: size.height / 1.13)
         addChild(menuBack)
         
         let menu = SKSpriteNode(imageNamed: CandyImageName.homeImage.rawValue)
         menu.name = "menu"
-        menu.size = CGSize(width: 67, height: 67)
-        menu.position = CGPoint(x: size.width / 8, y: size.height / 1.15)
+        menu.size = CGSize(width: size.width * 0.167, height: size.height * 0.0767)
+        menu.position = CGPoint(x: size.width / 8, y: size.height / 1.13)
         addChild(menu)
         
         let rulesBack = SKSpriteNode(imageNamed: CandyImageName.backCircleImage.rawValue)
-        rulesBack.size = CGSize(width: 80, height: 80)
+        rulesBack.size = CGSize(width: size.width * 0.199, height: size.height * 0.0915)
         rulesBack.name = "rulesBack"
-        rulesBack.position = CGPoint(x: size.width / 1.15, y: size.height / 1.15)
+        rulesBack.position = CGPoint(x: size.width / 1.15, y: size.height / 1.13)
         addChild(rulesBack)
         
         let rules = SKSpriteNode(imageNamed: CandyImageName.rulesForegorund.rawValue)
         rules.name = "rules"
-        rules.size = CGSize(width: 33, height: 50)
-        rules.position = CGPoint(x: size.width / 1.15, y: size.height / 1.15)
+        rules.size = CGSize(width: size.width * 0.082, height: size.height * 0.0573)
+        rules.position = CGPoint(x: size.width / 1.15, y: size.height / 1.13)
         addChild(rules)
         
         let bonusStepBack = SKSpriteNode(imageNamed: CandyImageName.backCircleImage.rawValue)
         bonusStepBack.name = "bonusStepBack"
-        bonusStepBack.size = CGSize(width: 80, height: 80)
+        bonusStepBack.size = CGSize(width: size.width * 0.199, height: size.height * 0.0915)
         bonusStepBack.position = CGPoint(x: size.width / 8, y: size.height / 8)
         addChild(bonusStepBack)
         
         let bonusStep = SKSpriteNode(imageNamed: CandyImageName.bonusStep.rawValue)
         bonusStep.name = "bonusStep"
-        bonusStep.size = CGSize(width: 35, height: 36)
+        bonusStep.size = CGSize(width: size.width * 0.087, height: size.height * 0.0413)
         bonusStep.position = CGPoint(x: size.width / 8, y: size.height / 8)
         addChild(bonusStep)
         
@@ -182,7 +182,7 @@ class CandyGameSpriteKit: SKScene, SKPhysicsContactDelegate {
             NSAttributedString.Key.strokeColor: UIColor(red: 192/255, green: 24/255, blue: 176/255, alpha: 1),
             NSAttributedString.Key.strokeWidth: -6
         ])
-        bonusLabel.position = CGPoint(x: size.width / 8, y: size.height / 20)
+        bonusLabel.position = CGPoint(x: size.width / 8, y: size.height / 22)
         addChild(bonusLabel)
         
         let stepLabel = SKLabelNode(fontNamed: "FranklinGothic-Demi")
@@ -192,18 +192,18 @@ class CandyGameSpriteKit: SKScene, SKPhysicsContactDelegate {
             NSAttributedString.Key.strokeColor: UIColor(red: 192/255, green: 24/255, blue: 176/255, alpha: 1),
             NSAttributedString.Key.strokeWidth: -6
         ])
-        stepLabel.position = CGPoint(x: size.width / 8, y: size.height / 33)
+        stepLabel.position = CGPoint(x: size.width / 8, y: size.height / 49)
         addChild(stepLabel)
         
         let bonusTimeBack = SKSpriteNode(imageNamed: CandyImageName.backCircleImage.rawValue)
-        bonusTimeBack.size = CGSize(width: 80, height: 80)
+        bonusTimeBack.size = CGSize(width: size.width * 0.199, height: size.height * 0.0915)
         bonusTimeBack.name = "bonusTimeBack"
         bonusTimeBack.position = CGPoint(x: size.width / 1.15, y: size.height / 8)
         addChild(bonusTimeBack)
         
         let bonusTime = SKSpriteNode(imageNamed: CandyImageName.bonusTime.rawValue)
         bonusTime.name = "bonusTime"
-        bonusTime.size = CGSize(width: 34, height: 39)
+        bonusTime.size = CGSize(width: size.width * 0.087, height: size.height * 0.0413)
         bonusTime.position = CGPoint(x: size.width / 1.15, y: size.height / 8)
         addChild(bonusTime)
         
@@ -214,7 +214,7 @@ class CandyGameSpriteKit: SKScene, SKPhysicsContactDelegate {
             NSAttributedString.Key.strokeColor: UIColor(red: 192/255, green: 24/255, blue: 176/255, alpha: 1),
             NSAttributedString.Key.strokeWidth: -6
         ])
-        bonusTimeLabel.position = CGPoint(x: size.width / 1.15, y: size.height / 20)
+        bonusTimeLabel.position = CGPoint(x: size.width / 1.15, y: size.height / 22)
         addChild(bonusTimeLabel)
         
         let timeBonusLabel = SKLabelNode(fontNamed: "FranklinGothic-Demi")
@@ -224,11 +224,11 @@ class CandyGameSpriteKit: SKScene, SKPhysicsContactDelegate {
             NSAttributedString.Key.strokeColor: UIColor(red: 192/255, green: 24/255, blue: 176/255, alpha: 1),
             NSAttributedString.Key.strokeWidth: -6
         ])
-        timeBonusLabel.position = CGPoint(x: size.width / 1.15, y: size.height / 33)
+        timeBonusLabel.position = CGPoint(x: size.width / 1.15, y: size.height / 49)
         addChild(timeBonusLabel)
         
         let pauseBack = SKSpriteNode(imageNamed: CandyImageName.backForPlayButton.rawValue)
-        pauseBack.size = CGSize(width: 151, height: 61)
+        pauseBack.size = CGSize(width: size.width * 0.376, height: size.height * 0.0699)
         pauseBack.name = "pauseBack"
         pauseBack.position = CGPoint(x: size.width / 2, y: size.height / 8)
         addChild(pauseBack)
@@ -246,11 +246,11 @@ class CandyGameSpriteKit: SKScene, SKPhysicsContactDelegate {
     
     func createGrid() {
             let itemCount = 7
-            let itemSpacing: CGFloat = 53
-            let itemHeight: CGFloat = 55
+        let itemSpacing: CGFloat = size.width * 0.132
+        let itemHeight: CGFloat = size.height * 0.063
 
             let startX = (size.width - CGFloat(itemCount - 1) * itemSpacing) / 2
-            let startY = size.height / 1.7
+            let startY = size.height / 1.67
 
             for row in 0..<itemCount {
                 var rowNodes: [GridNode] = []
